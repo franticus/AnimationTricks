@@ -32,6 +32,11 @@ body {
 	max-width: 300px;
 }
 
+.gray_logo_mst_around_square {
+	width: 50vw;
+	max-width: 300px;
+}
+
 .mst_logo {
 	transform-origin: center;
 	transform: rotateY(0deg) translateX(-600px);
