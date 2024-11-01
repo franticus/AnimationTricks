@@ -4,6 +4,7 @@
 }
 
 .drop {
-	width: 100%;
-	transform-origin: center center;
+	width: 20px;
+	height: 20px;
+	background-color: red;
 }
