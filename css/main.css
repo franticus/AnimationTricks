@@ -19,7 +19,7 @@ body {
 	}
 
 	40% {
-		transform: translateX(600px) rotateY(0deg);
+		transform: translateX(600px) rotateY(50deg);
 		opacity: 1;
 	}
 
@@ -47,7 +47,7 @@ body {
 	}
 
 	85% {
-		transform: translateX(-600px) rotateY(0deg);
+		transform: translateX(-600px) rotateY(50deg);
 		opacity: 1;
 	}
 
