@@ -7,24 +7,59 @@
         xmlns="http://www.w3.org/2000/svg"
       >
         <rect width="1080" height="1080" rx="180" fill="#0E0E0E" />
-        <g class="arrow">
-          <path
-            d="M280.629 529.731L797.47 529.731M797.47 529.731L627.626 359.887M797.47 529.731L627.626 699.574"
-            stroke="url(#paint0_linear_1516_179)"
-            stroke-width="78"
-          />
-        </g>
+
         <defs>
           <linearGradient
-            id="paint0_linear_1516_179"
-            x1="75.0172"
-            y1="27.0133"
-            x2="965.924"
-            y2="1080"
+            id="paint0_linear_1516_176"
+            x1="0.04"
+            x2="0.6"
+            y1="0.13"
+            y2="1.32"
+          >
+            <stop stop-color="#E31717" />
+            <stop offset="1" stop-color="#FFB800" />
+          </linearGradient>
+          <radialGradient
+            cx="0"
+            cy="0"
+            gradientTransform="translate(623.322 576.462) rotate(-147.407) scale(281.115 351.743)"
             gradientUnits="userSpaceOnUse"
+            id="paint1_radial_1516_176"
+            r="1"
+          >
+            <stop stop-color="#E31717" stop-opacity="0" />
+            <stop offset="1" stop-color="#FFB800" />
+          </radialGradient>
+          <radialGradient
+            cx="0"
+            cy="0"
+            gradientTransform="translate(709.76 655.309) rotate(-148.425) scale(331.5 426.112)"
+            gradientUnits="userSpaceOnUse"
+            id="paint2_radial_1516_176"
+            r="1"
           >
             <stop stop-color="#FFB800" />
-            <stop offset="1" stop-color="#E31717" />
-          </linearGradient>
+            <stop offset="0.99" stop-color="#E31717" stop-opacity="0" />
+          </radialGradient>
         </defs>
+        <g class="arrow">
+          <path
+            d="m299.63,529.73l497.84,0m0,0l-160.84,-160.84m185.84,134.84c-56.61,56.61 -138.23,139.23 -194.84,195.84"
+            id="svg_2"
+            stroke="url(#paint0_linear_1516_176)"
+            stroke-width="73"
+          />
+          <path
+            d="m296.63,529.73l499.84,0m26,25l-185.84,-185.84m173.84,143.84l-171.84,173.84"
+            id="svg_3"
+            stroke="url(#paint1_radial_1516_176)"
+            stroke-width="73"
+          />
+          <path
+            d="m298.63,530.73l498.84,-1m22,22l-182.84,-182.84m186.84,134.84l-184.84,184.84"
+            id="svg_4"
+            stroke="url(#paint2_radial_1516_176)"
+            stroke-width="73"
+          />
+        </g>
       </svg>
