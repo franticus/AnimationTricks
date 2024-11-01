@@ -9,4 +9,4 @@
 - Встроенные градиенты и фильтры для реалистичного визуального эффекта.
 
 ## Видео демонстрация
-![Demo Video](https://github.com/user-attachments/assets/a6967a84-ca36-42b7-aded-664f845819d0)
+https://github.com/user-attachments/assets/a6967a84-ca36-42b7-aded-664f845819d0
