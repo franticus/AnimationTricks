@@ -1,0 +1,33 @@
+.heart_pulse {
+	width: 50vw;
+	max-width: 300px;
+}
+
+.heart {
+	animation: heartPulse 2s linear infinite;
+	transform-origin: center center;
+}
+
+@keyframes heartPulse {
+
+	0%,
+	40% {
+		transform: scale(1) scaleY(1) translateY(0);
+	}
+
+	50% {
+		transform: scale(1.2) scaleY(1.1) translateY(-4px);
+	}
+
+	60% {
+		transform: scale(1.1) scaleY(1) translateY(0);
+	}
+
+	65% {
+		transform: scale(1.4) scaleY(0.9) translateY(-4px);
+	}
+
+	100% {
+		transform: scale(1) scaleY(1) translateY(0);
+	}
+}
