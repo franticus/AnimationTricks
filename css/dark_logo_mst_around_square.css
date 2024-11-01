@@ -1,38 +1,5 @@
-body {
-	background-color: #333;
-	padding: 100px 10px;
-	display: flex;
-	gap: 100px;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-}
-
-/* arrow_around_square */
-
-.light_arrow_around_square {
-	width: 50vw;
-	max-width: 300px;
-}
-
-.dark_arrow_around_square {
-	width: 50vw;
-	max-width: 300px;
-}
-
-.arrow {
-	transform-origin: center;
-	transform: rotateY(0deg) translateX(-600px);
-	animation: rotateAround 2s linear infinite;
-}
-
 /* logo_mst_around_square */
 .dark_logo_mst_around_square {
-	width: 50vw;
-	max-width: 300px;
-}
-
-.gray_logo_mst_around_square {
 	width: 50vw;
 	max-width: 300px;
 }
