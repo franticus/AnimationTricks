@@ -1,0 +1,9 @@
+.line_drop {
+	width: 50vw;
+	max-width: 300px;
+}
+
+.drop {
+	width: 100%;
+	transform-origin: center center;
+}
