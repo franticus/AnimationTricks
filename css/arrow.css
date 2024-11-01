@@ -17,7 +17,7 @@ body {
 .arrow {
 	transform-origin: center;
 	transform: rotateY(0deg) translateX(-600px);
-	animation: rotateAround 1.4s linear infinite;
+	animation: rotateAround 2s linear infinite;
 }
 
 @keyframes rotateAround {
