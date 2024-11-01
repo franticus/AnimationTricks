@@ -24,7 +24,11 @@
 	}
 
 	65% {
-		transform: scale(1.4) scaleY(0.9) translateY(-4px);
+		transform: scale(1.25) scaleY(0.9) translateY(-4px);
+	}
+
+	90% {
+		transform: scale(1) scaleY(1) translateY(0);
 	}
 
 	100% {
