@@ -1,0 +1,27 @@
+.baks_rotate {
+	width: 50vw;
+	max-width: 300px;
+}
+
+.baks {
+	animation: rotateBaks 2s linear infinite;
+	transform-origin: center center;
+}
+
+@keyframes rotateBaks {
+	0% {
+		transform: rotateY(0deg);
+	}
+
+	70% {
+		transform: rotateY(0deg);
+	}
+
+	80% {
+		transform: rotateY(180deg);
+	}
+
+	100% {
+		transform: rotateY(360deg);
+	}
+}
